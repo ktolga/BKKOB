@@ -119,7 +119,7 @@
 
         <activity
             android:name="com.isbank.bkkob.izleme.ReadWrite"
-            android:label="ReadWrite Demo" >
+            android:label="ReadWrite Demo3" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="Login" />

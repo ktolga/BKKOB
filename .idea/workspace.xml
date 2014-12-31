@@ -24,11 +24,8 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c073df8-f1ce-48c0-b83f-75f8aabc5e3c" name="Default" comment="">
+    <list default="true" id="7c073df8-f1ce-48c0-b83f-75f8aabc5e3c" name="Default" comment="sdsd&#10;ghghgh&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkkob.izleme/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bkkob.izleme/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkkob.izleme/bkkob.izleme.iml" afterPath="$PROJECT_DIR$/bkkob.izleme/bkkob.izleme.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com.isbank.framework/com.isbank.framework.iml" afterPath="$PROJECT_DIR$/com.isbank.framework/com.isbank.framework.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BKKOB İzleme Uygulaması.iws" />
@@ -695,7 +692,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bkkob.izleme/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="42" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.66853935" vertical-offset="1819" max-vertical-offset="2363">
+            <state line="121" column="42" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.33146068" vertical-offset="1939" max-vertical-offset="2363">
               <folding />
             </state>
           </provider>
@@ -1913,7 +1910,15 @@
       <created>1397828854391</created>
       <updated>1397828854391</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sdsd&#10;ghghgh">
+      <created>1420018900121</created>
+      <updated>1420018900121</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sdsd&#10;ghghgh&#10;">
+      <created>1420019003600</created>
+      <updated>1420019003600</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1997,7 +2002,8 @@
     <MESSAGE value="sdsd" />
     <MESSAGE value="sdsd&#10;" />
     <MESSAGE value="sdsd&#10;ghghgh" />
-    <option name="LAST_COMMIT_MESSAGE" value="sdsd&#10;ghghgh" />
+    <MESSAGE value="sdsd&#10;ghghgh&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdsd&#10;ghghgh&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2363,7 +2369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bkkob.izleme/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="42" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.66853935" vertical-offset="1819" max-vertical-offset="2363">
+        <state line="121" column="42" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.33146068" vertical-offset="1939" max-vertical-offset="2363">
           <folding />
         </state>
       </provider>
