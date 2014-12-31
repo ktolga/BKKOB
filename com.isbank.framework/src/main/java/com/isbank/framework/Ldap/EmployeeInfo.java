@@ -10,6 +10,7 @@ public class EmployeeInfo implements Serializable {
     private int corporateNumber = 0;
     private String firstName = "";
     private String lastName = "";
+	private String x = "";
     /*private String branchName = "";//TOLGA: kendi şube adı (ou)
     //private int superiorNumber = 0;
     private int branchCode = 0; //TOLGA: geçici görevli ise geçici görev şube kodu (gmudkod) değilse kendi şube kodu (mudkod)
