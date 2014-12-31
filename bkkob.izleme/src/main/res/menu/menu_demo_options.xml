@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add"
+        android:title="Add">
+
+        <!--
+        <menu>
+            <item android:id="@+id/add_1"
+                android:title="Add_1">
+
+                <menu>
+                    <item android:id="@+id/add_1_1"
+                        android:title="Add_1_1"/>
+                    <item android:id="@+id/add_1_2"
+                        android:title="Add_1_2"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/add_2"
+                android:title="Add_2"/>
+        </menu>
+-->
+    </item>
+
+    <item android:id="@+id/reset"
+        android:title="Reset"
+        />
+</menu>

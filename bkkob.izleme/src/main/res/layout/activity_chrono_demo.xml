@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ana_ekran_gradient"
+    tools:context="com.isbank.bkkob.izleme.ChronoDemo"
+    >
+
+    <TextView android:id="@+id/dateAndTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button android:id="@+id/dateBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Set the Date"
+        android:onClick="chooseDate"
+        android:layout_below="@+id/dateAndTime"
+        />
+    <Button android:id="@+id/timeBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Set the Time"
+        android:onClick="chooseTime"
+        android:layout_below="@+id/dateBtn"
+        />
+</RelativeLayout>

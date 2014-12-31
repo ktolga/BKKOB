@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isbank.bkkob.izleme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.isbank.bkkob.izleme.AnaEkran"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.triad_aksiyon_oteleme"
+            android:label="@string/title_activity_triad_aksiyon_oteleme" >
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.Test"
+            android:label="@string/title_activity_test" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.isbank.bkkob.izleme.Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.SpinnerDemo"
+            android:label="@string/title_activity_spinner_demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.ChronoDemo"
+            android:label="@string/title_activity_chrono_demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.MenuDemo"
+            android:label="@string/title_activity_menu_demo"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.RotationOneDemo"
+            android:label="@string/title_activity_rotation_one_demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.HandlerDemo"
+            android:label="" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.AsyncDemo"
+            android:label="" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.RotationAsync"
+            android:label="" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login" />
+        </activity>
+        <activity
+            android:name="com.isbank.bkkob.izleme.RssfeedActivity"
+            android:label="@string/title_activity_rssfeed" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Login" />
+        </activity>
+
+        <activity
+            android:name="com.isbank.bkkob.izleme.StaticFileDemo"
+            android:label="Static File Demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Login" />
+        </activity>
+
+        <activity
+            android:name="com.isbank.bkkob.izleme.ReadWrite"
+            android:label="ReadWrite Demo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Login" />
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

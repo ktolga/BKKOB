@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="unboundid-ldapsdk-se.2.3.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bkkob.izleme/libs/unboundid-ldapsdk-se.2.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: unboundid-ldapsdk-me">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bkkob.izleme/libs/unboundid-ldapsdk-me.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

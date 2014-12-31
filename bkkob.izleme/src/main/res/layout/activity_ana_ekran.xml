@@ -1,0 +1,120 @@
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ana_ekran_gradient"
+        tools:context="com.isbank.bkkob.izleme.AnaEkran"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/turkiye_is_bankasi_logo"
+            android:layout_centerHorizontal="true"
+            />
+
+        <View
+            android:id="@+id/bosluk4"
+            android:layout_height="30dip"
+            android:alpha="0"
+            android:layout_width="wrap_content"
+           android:layout_below="@+id/imageView1"
+            />
+
+            <Button
+                android:id="@+id/btnTriadAksiyonOteleme"
+                android:layout_height="wrap_content"
+                android:layout_width="200dip"
+                android:text="@string/triad_aksiyon_oteleme"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/koseli_dugme"
+                android:layout_below="@+id/bosluk4"
+                style="@style/AnaMenu"
+                android:onClick="MenuClick"
+                />
+
+            <View
+                android:id="@+id/bosluk"
+                android:layout_height="10dip"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/btnTriadAksiyonOteleme"
+                />
+
+            <Button
+                android:id="@+id/btnDinamikRaporlar"
+                android:layout_height="wrap_content"
+                android:layout_width="200dip"
+                android:layout_below="@+id/bosluk"
+                android:text="@string/raporlar"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/koseli_dugme"
+                style="@style/AnaMenu"
+                android:onClick="MenuClick"
+                />
+
+            <View
+                android:id="@+id/bosluk2"
+                android:layout_height="10dip"
+                android:alpha="0"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/btnDinamikRaporlar"
+                android:layout_centerHorizontal="true"
+                />
+
+            <Button
+                android:id="@+id/btnMenu1"
+                android:layout_height="wrap_content"
+                android:layout_width="200dip"
+                android:layout_below="@+id/bosluk2"
+                android:text="@string/bos_menu"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/koseli_dugme"
+                style="@style/AnaMenu"
+                android:onClick="MenuClick"
+                />
+
+            <View
+                android:id="@+id/bosluk3"
+                android:layout_height="10dip"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/btnMenu1"
+                android:layout_centerHorizontal="true"
+                android:alpha="0"
+                />
+
+            <Button
+                android:id="@+id/btnMenu2"
+                android:layout_height="wrap_content"
+                android:layout_width="200dip"
+                android:layout_below="@+id/bosluk3"
+                android:text="@string/bos_menu"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/koseli_dugme"
+                style="@style/AnaMenu"
+                android:onClick="MenuClick"
+                />
+
+        <View
+            android:id="@+id/bosluk5"
+            android:layout_height="10dip"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/btnMenu2"
+            android:layout_centerHorizontal="true"
+            android:alpha="0"
+            />
+
+        <TextView
+            android:id="@+id/txtKullaniciBilgi"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/bosluk5"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+    </RelativeLayout>

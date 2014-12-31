@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BKKOB İzleme Uygulaması</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="islem_secimi">İşlem seçiniz</string>
+    <string name="triad_aksiyon_oteleme">Aksiyon öteleme ekranı</string>
+    <string name="raporlar">Dinamik raporlar</string>
+    <string name="tamam">Tamam</string>
+    <string name="title_activity_triad_aksiyon_oteleme">Triad Aksiyon Oteleme</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ana_ekran2">AnaEkran2</string>
+    <string name="title_activity_login">BKKOB Kullanıcı Girişi</string>
+    <string name="login">BKKOB İzleme Giriş</string>
+    <string name="bos_menu">REZERVE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ldap_sunucu">ldap01.isbank</string>
+    <string name="ldap_ssl">0</string>
+    <string name="ldap_port">389</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_spinner_demo">SpinnerDemo</string>
+    <string name="title_activity_chrono_demo">ChronoDemo</string>
+    <string name="title_activity_menu_demo">MenuDemo</string>
+    <string name="title_activity_rotation_one_demo">RotationOneDemo</string>
+    <string name="title_activity_rssfeed">RssfeedActivity</string>
+
+</resources>
